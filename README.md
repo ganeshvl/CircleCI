@@ -2,7 +2,9 @@
 ![minSdkVersion 14](https://img.shields.io/badge/minSdkVersion-14-red.svg?style=true)
 ![compileSdkVersion 25](https://img.shields.io/badge/compileSdkVersion-25-yellow.svg?style=true)
 [![CircleCI](https://circleci.com/gh/ganeshvl/CircleCI.svg?style=shield)](https://circleci.com/gh/ganeshvl/CircleCI)
-[![CircleCI](https://circleci.com/gh/andremion/CircleCI.svg?style=svg)](https://circleci.com/gh/ganeshvl/CircleCI)
+[![CircleCI](https://circleci.com/gh/ganeshvl/CircleCI.svg?style=svg)](https://circleci.com/gh/ganeshvl/CircleCI)
+[![codecov](https://codecov.io/gh/ganeshvl/CircleCI/graph/badge.svg)](https://codecov.io/gh/ganeshvl/CircleCI)
+
 # Marvel & Comics
 
 Android app built with [MVP](http://antonioleiva.com/mvp-android/) architectural approach and uses [Marvel Comics API](https://developer.marvel.com) that allows developers everywhere to access information about Marvel's vast library of comics.
