@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6898e6bfdd604eca9a2d5092d5643d39)](https://app.codacy.com/app/ganeshvl/CircleCI?utm_source=github.com&utm_medium=referral&utm_content=ganeshvl/CircleCI&utm_campaign=Badge_Grade_Dashboard)
 [![License Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=true)](http://www.apache.org/licenses/LICENSE-2.0)
 ![minSdkVersion 14](https://img.shields.io/badge/minSdkVersion-14-red.svg?style=true)
 ![compileSdkVersion 25](https://img.shields.io/badge/compileSdkVersion-25-yellow.svg?style=true)
