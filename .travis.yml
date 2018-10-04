@@ -1,6 +1,25 @@
 language: android
 jdk: oraclejdk8
 
+notifications:
+  email:
+    recipients:
+      - ganeshrajarapu.vl@gmail.com
+    on_success: change
+    on_failure: always
+
+stages:
+  - name: developBuild
+    if: branch = travis-ci
+  
+
+
+jobs:
+  include:
+    - stage: developBuild
+      script: ./gradlew assembleDebug
+
+
 env:
   matrix:
     - ANDROID_TARGET=android-17 EMULATOR_TAG=google_apis EMULATOR_ABI=armeabi-v7a EMULATOR_API=17
@@ -50,9 +69,27 @@ before_script:
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
 
+branches:
+    only:
+      - /travis-ci/.*/
+
+deploy:
+  provider: releases
+  api_key:
+    secure: be3f5f5cb0e4562f151cbf9bbd48279609a7e46a
+  file_glob: true
+  file:
+    - "app/build/outputs/apk/**/*.apk"
+  skip_cleanup: true
+  overwrite: true
+  on:
+    repo: ganeshvl/CircleCI
+    branch: travis-ci
+    tags: true
+
 #Build, and run tests
 script:
-  - ./gradlew jacocoTestReport --continue --stacktrace
+  - ./gradlew build jacocoTestReport assembleAndroidTest --continue --stacktrace
 
 #Codecov
 after_success:
