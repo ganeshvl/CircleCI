@@ -41,3 +41,5 @@ captures/
 
 # Travis config yaml file
 .travis.yml
+# Gradle properties
+gradle.properties
