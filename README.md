@@ -4,6 +4,7 @@
 ![compileSdkVersion 25](https://img.shields.io/badge/compileSdkVersion-25-yellow.svg?style=true)
 [![CircleCI](https://circleci.com/gh/ganeshvl/CircleCI.svg?style=shield)](https://circleci.com/gh/ganeshvl/CircleCI)
 [![CircleCI](https://circleci.com/gh/ganeshvl/CircleCI.svg?style=svg)](https://circleci.com/gh/ganeshvl/CircleCI)
+[![TRAVIS-CI](https://api.travis-ci.org/ganeshvl/CircleCI.svg?branch=travis-ci)](https://travis-ci.org/ganeshvl/CircleCI)
 [![codecov](https://codecov.io/gh/ganeshvl/CircleCI/graph/badge.svg)](https://codecov.io/gh/ganeshvl/CircleCI)
 
 # Marvel & Comics
